@@ -48,7 +48,7 @@ Lastly, it is recommended to read back the parameters from the controller and co
 
 ```bash
 $ python3 bafang_config_tool.py read /dev/ttyUSB0 actual_motor_config.json
-diff desired_motor_params.json actual_motor_config.json
+$ diff desired_motor_params.json actual_motor_config.json
 ```
 
 ## Disclaimer
