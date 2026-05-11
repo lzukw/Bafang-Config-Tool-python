@@ -1,0 +1,65 @@
+{
+  "general": {
+    "manufacturer": "SZBF",
+    "model": "SW09",
+    "hardware_version": "V2.0",
+    "firmware_version": "V1.0.0.4",
+    "nominal_voltage_code": 2,
+    "nominal_voltage_str": "48V",
+    "cut_off_voltage_min": 38,
+    "cut_off_voltage_max": 43,
+    "max_current_amps": 18
+  },
+  "basic": {
+    "low_battery_protect": 42,
+    "current_limit_amps": 18,
+    "assist_current_limits": [
+      0,
+      52,
+      58,
+      64,
+      70,
+      76,
+      82,
+      88,
+      94,
+      100
+    ],
+    "assist_speed_limits": [
+      0,
+      36,
+      44,
+      52,
+      60,
+      68,
+      76,
+      84,
+      92,
+      100
+    ],
+    "wheel_diameter_code": 52,
+    "speed_meter_type": 0,
+    "speed_meter_signals": 1
+  },
+  "pedal_assist": {
+    "pedal_sensor_type": 3,
+    "designated_assist": 255,
+    "speed_limit": 255,
+    "start_current_pct": 40,
+    "slow_start_mode": 5,
+    "start_degree": 4,
+    "work_mode": 255,
+    "stop_delay": 25,
+    "current_decay": 8,
+    "stop_decay": 0,
+    "keep_current_pct": 60
+  },
+  "throttle": {
+    "start_voltage": 11,
+    "end_voltage": 35,
+    "mode": 1,
+    "assist_level": 255,
+    "speed_limit": 40,
+    "start_current_pct": 10
+  }
+}
