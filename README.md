@@ -16,6 +16,12 @@ The cable normally connected to the display must be connected to the programming
 
 ## Usage
 
+On Linux your user must be member of the `dialout`-group to access the serial port without sudo-rights. You can add your user to this group with the following command, and then have to reboot:
+
+```bash
+sudo usermod -a -G dialout $USER
+```
+
 First read the Parameters from the controller with the command:
 
 ```bash
